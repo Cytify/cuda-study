@@ -1,0 +1,64 @@
+[79373] cuda-study-profile-Ojuw0K@127.0.0.1
+  vector_add(const float *, const float *, float *, unsigned int) (65536, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 8.6
+    Section: GPU Speed Of Light Throughput
+    ----------------------- ----------- ------------
+    Metric Name             Metric Unit Metric Value
+    ----------------------- ----------- ------------
+    DRAM Frequency                  Ghz         6.79
+    SM Frequency                    Ghz         1.77
+    Elapsed Cycles                cycle       870141
+    Memory Throughput                 %        93.91
+    DRAM Throughput                   %        93.91
+    Duration                         us       491.78
+    L1/TEX Cache Throughput           %        13.52
+    L2 Cache Throughput               %        24.02
+    SM Active Cycles              cycle    858203.78
+    Compute (SM) Throughput           %        10.56
+    ----------------------- ----------- ------------
+
+    INF   This workload is utilizing greater than 80.0% of the available compute or memory performance of this device.  
+          To further improve performance, work will likely need to be shifted from the most utilized to another unit.   
+          Start by analyzing DRAM in the Memory Workload Analysis section.                                              
+
+    Section: Launch Statistics
+    -------------------------------- --------------- ---------------
+    Metric Name                          Metric Unit    Metric Value
+    -------------------------------- --------------- ---------------
+    Block Size                                                   256
+    Function Cache Configuration                     CachePreferNone
+    Grid Size                                                  65536
+    Registers Per Thread             register/thread              16
+    Shared Memory Configuration Size           Kbyte            8.19
+    Driver Shared Memory Per Block       Kbyte/block            1.02
+    Dynamic Shared Memory Per Block       byte/block               0
+    Static Shared Memory Per Block        byte/block               0
+    # SMs                                         SM              46
+    Stack Size                                                  1024
+    Threads                                   thread        16777216
+    # TPCs                                                        23
+    Enabled TPC IDs                                              all
+    Uses Green Context                                             0
+    Waves Per SM                                              237.45
+    -------------------------------- --------------- ---------------
+
+    Section: Occupancy
+    ------------------------------- ----------- ------------
+    Metric Name                     Metric Unit Metric Value
+    ------------------------------- ----------- ------------
+    Block Limit SM                        block           16
+    Block Limit Registers                 block           16
+    Block Limit Shared Mem                block            8
+    Block Limit Warps                     block            6
+    Theoretical Active Warps per SM        warp           48
+    Theoretical Occupancy                     %          100
+    Achieved Occupancy                        %        82.66
+    Achieved Active Warps Per SM           warp        39.68
+    ------------------------------- ----------- ------------
+
+    OPT   Est. Local Speedup: 17.34%                                                                                    
+          The difference between calculated theoretical (100.0%) and measured achieved occupancy (82.7%) can be the     
+          result of warp scheduling overheads or workload imbalances during the kernel execution. Load imbalances can   
+          occur between warps within a block as well as across blocks of the same kernel. See the CUDA Best Practices   
+          Guide (https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#occupancy) for more details on     
+          optimizing occupancy.                                                                                         
+

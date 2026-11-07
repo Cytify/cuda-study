@@ -1,0 +1,4 @@
+==PROF== Connected to process 79642 (/tmp/cuda-study-profile-mUn9A3)
+==PROF== Profiling "vector_add" - 0 (1/1): 0%....50%....100% - 7 passes
+==PROF== Disconnected from process 79642
+==PROF== Report: /root/workspace/cuda-study-template/reports/profiling/vector-add-block1024-CqDK8v/profile.ncu-rep

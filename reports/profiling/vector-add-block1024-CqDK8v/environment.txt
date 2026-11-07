@@ -1,0 +1,15 @@
+2026-11-07T07:05:42Z
+block_size=1024
+N=16777216
+flags=-O3 -std=c++17
+dc00c7e6f12c03531573ba41cea07ef5375a8550
+ M labs/01_cuda-basics/vector_add/vector_add.cu
+b06aa620ee288642b394c957125ae65be4fd5ed87eab0739d9f563a4f1afd97f  labs/01_cuda-basics/vector_add/vector_add.cu
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2026 NVIDIA Corporation
+Built on Fri_Apr_24_07:22:02_PM_PDT_2026
+Cuda compilation tools, release 13.3, V13.3.33
+Build cuda_13.3.r13.3/compiler.37862127_0
+NVIDIA (R) Nsight Compute Command Line Profiler
+Copyright (c) 2018-2026 NVIDIA Corporation
+Version 2026.2.0.0 (build 37790515) (public-release)

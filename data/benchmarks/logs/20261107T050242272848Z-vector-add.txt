@@ -1,0 +1,6 @@
+N = 16777216
+Block size = 256
+Grid size = 65536
+Average time = 0.4985 ms
+Effective bandwidth = 403.90 GB/s
+Correctness: PASS

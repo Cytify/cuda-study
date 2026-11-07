@@ -4,7 +4,7 @@
 
 | ID | Kernel / Topic | 阶段 | 优先级 | 当前状态 | 验收证据 / 下一步 |
 |---|---|---:|---|---|---|
-| K001 | Vector Add | 1 | P0 | 进行中（导入已有实验） | 整理 correctness、block-size benchmark、带宽估算；复核 launch-bound vs memory-bound |
+| K001 | Vector Add | 1 | P0 | 待复盘 | 已有 CPU reference、尺寸检查、memcheck、多批/规模/block 对照与 ncu；下次独立解释 occupancy 与 DRAM 吞吐后收尾，见 LAB.md 与 reports/PROFILING.md |
 | K002 | Strided access / transpose | 2 | P0 | 未开始 | 对照访问模式并记录 coalescing 与布局影响 |
 | K003 | Sum reduction | 3 | P0 | 未开始 | naive、warp/block reduction；非整除 N；误差分析 |
 | K004 | Max reduction | 3 | P1 | 未开始 | mask / identity value / 非整除长度 |

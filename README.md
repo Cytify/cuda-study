@@ -36,7 +36,7 @@ bash scripts/check_env.sh
 
 # 2) 编译并运行第一个示例
 nvcc -O3 -std=c++17 labs/01_cuda-basics/vector_add/vector_add.cu -o /tmp/vector_add
-/tmp/vector_add 1048576
+/tmp/vector_add 256
 
 # 3) 开始一个学习记录
 cp templates/study-session.md notes/sessions/$(date +%F)-first-session.md

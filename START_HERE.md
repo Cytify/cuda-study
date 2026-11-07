@@ -15,7 +15,7 @@
 - [x] 打开 `docs/progress.md`，写下这周可投入的真实学习时长。
 - [x] 执行 `bash scripts/check_env.sh`，把实际 GPU / CUDA / compiler 信息记入 `notes/environment/`。
 - [x] 把过去做过的 vector add benchmark 和代码提交记录导入第一个 lab，不要从零重做已掌握的步骤。
-- [ ] 建立 Git 初始提交。
+- [x] 建立 Git 初始提交。
 
 ## 2. 第一周只聚焦三个结果
 
