@@ -1,0 +1,28 @@
+# Build outputs
+/build/
+/bin/
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# CUDA / profiling artifacts (keep only intentionally curated small summaries)
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local editor / OS
+.DS_Store
+Thumbs.db
+.vscode/.ropeproject
+
+# Temporary files
+*.tmp
+*.log

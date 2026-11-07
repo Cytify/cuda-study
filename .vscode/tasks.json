@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CUDA Study: Check Environment",
+      "type": "shell",
+      "command": "bash scripts/check_env.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "CUDA Study: Build Vector Add",
+      "type": "shell",
+      "command": "nvcc -O3 -std=c++17 labs/01_cuda-basics/vector_add/vector_add.cu -o /tmp/cuda-study-vector-add",
+      "group": "build",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "CUDA Study: Run Vector Add",
+      "type": "shell",
+      "command": "/tmp/cuda-study-vector-add 1048576",
+      "dependsOn": "CUDA Study: Build Vector Add",
+      "dependsOrder": "sequence",
+      "problemMatcher": []
+    }
+  ]
+}

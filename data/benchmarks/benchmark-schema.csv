@@ -1,0 +1,1 @@
+timestamp_utc,kernel,variant,commit,gpu_name,compute_capability,driver_version,cuda_toolkit,compiler,compiler_flags,dtype,shape,layout,warmup,repeats,statistic,latency_us,p95_latency_us,reference_latency_us,speedup,effective_bandwidth_gbs,tflops,correctness,measurement_scope,notes
